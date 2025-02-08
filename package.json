@@ -1,0 +1,49 @@
+{
+  "name": "my-admin-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@mui/icons-material": "^6.4.3",
+    "@mui/material": "^6.4.3",
+    "cra-template": "1.2.0",
+    "ra-core": "^5.5.2",
+    "ra-data-json-server": "^5.5.2",
+    "ra-data-simple-rest": "^5.5.2",
+    "react": "^19.0.0",
+    "react-admin": "^5.5.2",
+    "react-dom": "^19.0.0",
+    "react-scripts": "5.0.1",
+    "recharts": "^2.15.1",
+    "web-vitals": "^4.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "json-server": "^1.0.0-beta.3",
+    "postcss": "^8.5.1",
+    "postcss-loader": "^8.1.1"
+  }
+}
